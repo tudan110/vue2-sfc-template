@@ -15,7 +15,7 @@ Vue2PluginTemplate
 
 ## Using the Template
 
-要直接使用此模板，请执行以下命令:
+To directly use this template, please run the following command:
 
 ```bash
 npx degit tudan110/vue2-plugin-template my-component
@@ -110,7 +110,7 @@ export default {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
-    <!-- 确保你的当前目录有该产物 -->
+    <!-- Make sure you have this file in your current directory -->
     <script src="/lib/vue2-plugin-template.umd.js"></script>
 </head>
 <body>
