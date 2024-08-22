@@ -1,0 +1,60 @@
+{
+  "name": "@tudan110/vue2-plugin-template",
+  "version": "0.0.1",
+  "description": "支持 Vue 2 的 Vue.js 单文件组件模板",
+  "main": "lib/vue2-plugin-template.umd.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "lib": "vue-cli-service build --target lib --name vue2-plugin-template --dest lib packages/index.js",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tudan110/vue2-plugin-template.git"
+  },
+  "keywords": [
+    "vue2-plugin-template"
+  ],
+  "author": "tudan110",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tudan110/vue2-plugin-template/issues"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
