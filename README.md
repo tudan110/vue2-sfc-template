@@ -104,25 +104,25 @@ export default {
 ```html
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
-    <script src="https://unpkg.com/vue@3.2.47/dist/vue.global.prod.js"></script>
-    <!-- Make sure you have this file in your current directory -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <!-- 确保你的当前目录有该产物 -->
     <script src="/lib/vue2-plugin-template.umd.js"></script>
-  </head>
-  <body>
-    <div id="app">
-        <vue2-plugin-template></vue2-plugin-template>
-    </div>
-  </body>
-  <script>
-    const app = Vue.createApp({})
-    app.use(Vue2PluginTemplate)
-    app.mount('#app')
-  </script>
+</head>
+<body>
+<div id="app">
+    <vue2-plugin-template></vue2-plugin-template>
+</div>
+</body>
+<script>
+    var app = new Vue({
+        el: '#app'
+    })
+</script>
 </html>
 ```
 
