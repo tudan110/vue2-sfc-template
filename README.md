@@ -112,6 +112,16 @@ export default {
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     <!-- Make sure you have this file in your current directory -->
     <script src="/lib/vue2-sfc-template.umd.js"></script>
+    <style>
+        #app {
+            font-family: Avenir, Helvetica, Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-align: center;
+            color: #2c3e50;
+            margin-top: 60px;
+        }
+    </style>
 </head>
 <body>
 <div id="app">
