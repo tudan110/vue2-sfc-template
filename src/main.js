@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Vue2PluginTemplate from '../packages'
+import Vue2SfcTemplate from '../packages'
 
-Vue.use(Vue2PluginTemplate)
+Vue.use(Vue2SfcTemplate)
 // 在 App.vue 中引用，并启动项目查看
 
 Vue.config.productionTip = false

@@ -1,7 +1,7 @@
-import Vue2PluginTemplate from './vue2-plugin-template'
+import Vue2SfcTemplate from './vue2-sfc-template'
 // 存储组件列表
 const components = [
-    Vue2PluginTemplate
+    Vue2SfcTemplate
 ]
 /*
   定义install 方法，接收Vue作为参数，如果使用use注册插件，则所有的组件都将被注册
@@ -21,7 +21,7 @@ if (typeof window !== 'undefined' && window.Vue) {
     install(window.Vue)
 }
 export {
-    Vue2PluginTemplate
+    Vue2SfcTemplate
 }
 export default {
     install

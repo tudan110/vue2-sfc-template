@@ -1,11 +1,11 @@
 # Vue2 + JS + Webpack For SFC template
 
-Vue2PluginTemplate
+Vue2SfcTemplate
 
 > 支持 Vue 2 的 Vue.js 单文件组件模板示例。
 
 <p align='center'>
-<a href="https://github.com/tudan110/vue2-plugin-template/blob/main/README.md">English</a> | <b>简体中文</b>
+<a href="https://github.com/tudan110/vue2-sfc-template/blob/main/README.md">English</a> | <b>简体中文</b>
 </p>
 
 ## 功能
@@ -18,10 +18,10 @@ Vue2PluginTemplate
 要直接使用此模板，请执行以下命令:
 
 ```bash
-npx degit tudan110/vue2-plugin-template my-component
+npx degit tudan110/vue2-sfc-template my-component
 ```
 
-并将 `vue2-plugin-template` 和 `Vue2PluginTemplate` 全局替换为您的组件库名称。
+并将 `vue2-sfc-template` 和 `Vue2SfcTemplate` 全局替换为您的组件库名称。
 
 ## 安装
 
@@ -76,25 +76,25 @@ npm publish --access public
 ### npm 安装
 
 ```sh
-npm i @tudan110/vue2-plugin-template
+npm i vue2-sfc-template
 ```
 
 ### 全局导入
 在 main.js 中导入并注册组件
 ```js
 import Vue from 'vue'
-import Vue2PluginTemplate from '@tudan110/vue2-plugin-template'
+import Vue2SfcTemplate from 'vue2-sfc-template'
 
-Vue.use(Vue2PluginTemplate)
+Vue.use(Vue2SfcTemplate)
 ```
 
 ### 手动导入
 ```js
-import Vue2PluginTemplate from '@tudan110/vue2-plugin-template'
+import Vue2SfcTemplate from 'vue2-sfc-template'
 
 export default {
     components: {
-        Vue2PluginTemplate
+        Vue2SfcTemplate
     }
 }
 ```
@@ -111,11 +111,11 @@ export default {
     <title>Vite App</title>
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     <!-- 确保你的当前目录有该产物 -->
-    <script src="/lib/vue2-plugin-template.umd.js"></script>
+    <script src="/lib/vue2-sfc-template.umd.js"></script>
 </head>
 <body>
 <div id="app">
-    <vue2-plugin-template></vue2-plugin-template>
+    <vue2-sfc-template></vue2-sfc-template>
 </div>
 </body>
 <script>

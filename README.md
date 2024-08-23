@@ -1,11 +1,11 @@
 # Vue2 + JS + Webpack For SFC template
 
-Vue2PluginTemplate
+Vue2SfcTemplate
 
 > A template example for Vue.js single-file component supporting Vue 2
 
 <p align='center'>
-<b>English</b> | <a href="https://github.com/tudan110/vue2-plugin-template/blob/main/README.zh-CN.md">简体中文</a>
+<b>English</b> | <a href="https://github.com/tudan110/vue2-sfc-template/blob/main/README.zh-CN.md">简体中文</a>
 </p>
 
 ## Features
@@ -18,10 +18,10 @@ Vue2PluginTemplate
 To directly use this template, please run the following command:
 
 ```bash
-npx degit tudan110/vue2-plugin-template my-component
+npx degit tudan110/vue2-sfc-template my-component
 ```
 
-And replace vue2-plugin-template and Vue2PluginTemplate globally with the name of your component library.
+And replace vue2-sfc-template and Vue2SfcTemplate globally with the name of your component library.
 
 ## Installation
 
@@ -76,25 +76,25 @@ npm publish --access public
 ### npm Installation
 
 ```sh
-npm i @tudan110/vue2-plugin-template
+npm i vue2-sfc-template
 ```
 
 ### Global Import
 Import and register the component in main.js
 ```js
 import Vue from 'vue'
-import Vue2PluginTemplate from '@tudan110/vue2-plugin-template'
+import Vue2SfcTemplate from 'vue2-sfc-template'
 
-Vue.use(Vue2PluginTemplate)
+Vue.use(Vue2SfcTemplate)
 ```
 
 ### Manual Import
 ```js
-import Vue2PluginTemplate from '@tudan110/vue2-plugin-template'
+import Vue2SfcTemplate from 'vue2-sfc-template'
 
 export default {
     components: {
-        Vue2PluginTemplate
+        Vue2SfcTemplate
     }
 }
 ```
@@ -111,11 +111,11 @@ export default {
     <title>Vite App</title>
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     <!-- Make sure you have this file in your current directory -->
-    <script src="/lib/vue2-plugin-template.umd.js"></script>
+    <script src="/lib/vue2-sfc-template.umd.js"></script>
 </head>
 <body>
 <div id="app">
-    <vue2-plugin-template></vue2-plugin-template>
+    <vue2-sfc-template></vue2-sfc-template>
 </div>
 </body>
 <script>

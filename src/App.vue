@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Vue2PluginTemplate/>
+    <Vue2SfcTemplate/>
   </div>
 </template>
 

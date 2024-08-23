@@ -1,28 +1,28 @@
 {
-  "name": "@tudan110/vue2-plugin-template",
-  "version": "0.0.1",
+  "name": "vue2-sfc-template",
+  "version": "1.0.0",
   "description": "支持 Vue 2 的 Vue.js 单文件组件模板",
-  "main": "lib/vue2-plugin-template.umd.js",
+  "main": "lib/vue2-sfc-template.umd.js",
   "files": [
     "lib"
   ],
   "scripts": {
     "dev": "vue-cli-service serve",
-    "lib": "vue-cli-service build --target lib --name vue2-plugin-template --dest lib packages/index.js",
+    "lib": "vue-cli-service build --target lib --name vue2-sfc-template --dest lib packages/index.js",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tudan110/vue2-plugin-template.git"
+    "url": "git+https://github.com/tudan110/vue2-sfc-template.git"
   },
   "keywords": [
-    "vue2-plugin-template"
+    "vue2-sfc-template"
   ],
   "author": "tudan110",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tudan110/vue2-plugin-template/issues"
+    "url": "https://github.com/tudan110/vue2-sfc-template/issues"
   },
   "dependencies": {
     "core-js": "^3.8.3",

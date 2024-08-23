@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div>Vue2PluginTemplate</div>
+    <div>Vue2SfcTemplate</div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Vue2PluginTemplate'
+  name: 'Vue2SfcTemplate'
 }
 </script>
 
